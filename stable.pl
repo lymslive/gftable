@@ -8,7 +8,7 @@ use strict;
 use warnings;
 
 use DBI;
-require "config.pl";
+require "./config.pl";
 
 # 获取数据库连接
 my $dbname = $config::entry->{database};
